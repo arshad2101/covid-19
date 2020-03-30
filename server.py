@@ -2,6 +2,7 @@ from flask import Flask, url_for, send_from_directory, request,render_template
 import logging, os, json
 from werkzeug import secure_filename
 import os 
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 dir_path = os.path.dirname(os.path.realpath(__file__))
 print(dir_path)
 app = Flask(__name__)
@@ -35,11 +36,11 @@ from keras import optimizers
 from keras.preprocessing.image import load_img
 from IPython.display import display
 from PIL import Image
-from keras.preprocessing.image import ImageDataGenerator
+#from keras.preprocessing.image import ImageDataGenerator
 from keras.models import load_model
-
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 test_batchsize = 10   
-image_size = 256      
+image_size = 224      
 test_dir = 'uploads'
 #train_dir = 'resized_train'
     
@@ -166,7 +167,7 @@ def predict(img_name,names,ids):
         d="covid"
     else:
         d="normal"
-    listOfStr = ["Mild", "Moderate" , "NoDir" , "ProliferativeDR","Severe" ]
+    listOfStr = ["covid", "normal"]
     zipbObj = zip(listOfStr, c)
     dictOfWords = dict(zipbObj)
     
