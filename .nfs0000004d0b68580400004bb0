@@ -1,0 +1,1304 @@
+2020-03-31 22:43:25.492290: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-03-31 22:43:28.203593: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-03-31 22:43:28.245669: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2020-03-31 22:43:28.245721: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: cyclops
+2020-03-31 22:43:28.245732: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: cyclops
+2020-03-31 22:43:28.245867: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 418.87.0
+2020-03-31 22:43:28.245918: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 418.87.0
+2020-03-31 22:43:28.245929: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 418.87.0
+Using TensorFlow backend.
+WARNING: Logging before flag parsing goes to stderr.
+W0331 22:43:36.562082 140736072338384 deprecation_wrapper.py:119] From server.py:88: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W0331 22:43:36.673141 140736072338384 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+W0331 22:43:36.824345 140736072338384 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4074: The name tf.nn.avg_pool is deprecated. Please use tf.nn.avg_pool2d instead.
+
+W0331 22:43:37.796306 140736072338384 deprecation.py:323] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0331 22:43:38.058213 140736072338384 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+/storage/users/arshad/covid-19
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+I0331 22:43:38.168646 140736072338384 _internal.py:122]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[2020-03-31 22:45:06,576] INFO in server: /storage/users/arshad/covid-19
+I0331 22:45:06.576073 140710459863472 server.py:66] /storage/users/arshad/covid-19
+[2020-03-31 22:45:06,577] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0331 22:45:06.577704 140710459863472 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-03-31 22:45:06,600] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/2_1271153.jpeg
+I0331 22:45:06.600465 140710459863472 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/2_1271153.jpeg
+Host: cyclops.nic.uoregon.edu:5001
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://object-automation.com/corona.html
+Content-Type: multipart/form-data; boundary=---------------------------29648260269359
+Content-Length: 10087
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+predicting on the test images...
+Found 10 images belonging to 1 classes.
+
+1/1 [==============================] - 1s 715ms/step
+I0331 22:45:07.810357 140710459863472 _internal.py:122] 103.46.200.149 - - [31/Mar/2020 22:45:07] "[37mPOST /upload HTTP/1.1[0m" 200 -
+I0331 22:45:08.285464 140710376370608 _internal.py:122] 103.46.200.149 - - [31/Mar/2020 22:45:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2020-03-31 22:45:27,733] INFO in server: /storage/users/arshad/covid-19
+I0331 22:45:27.733389 140710376370608 server.py:66] /storage/users/arshad/covid-19
+[2020-03-31 22:45:27,734] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0331 22:45:27.734442 140710376370608 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-03-31 22:45:27,734] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/6_6150794.jpeg
+I0331 22:45:27.734636 140710376370608 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/6_6150794.jpeg
+[[9.1646022e-01 8.3539762e-02]
+ [1.0000000e+00 4.6885702e-08]
+ [4.2023996e-04 9.9957973e-01]
+ [9.9993873e-01 6.1298750e-05]
+ [9.9455798e-01 5.4419893e-03]
+ [1.5630906e-02 9.8436904e-01]
+ [7.5137007e-01 2.4862997e-01]
+ [9.9660611e-01 3.3939357e-03]
+ [6.1979028e-04 9.9938023e-01]
+ [1.1715473e-03 9.9882847e-01]]
+[0 0 1 0 0 1 0 0 1 1]
+{'test/01_8.jpg': ['test/01_8.jpg', '0', '[0.9164602  0.08353976]'], 'test/2020-calendar-with-holidays.png': ['test/2020-calendar-with-holidays.png', '0', '[1.0000000e+00 4.6885702e-08]'], 'test/2_1271153.jpeg': ['test/2_1271153.jpeg', '1', '[4.2023996e-04 9.9957973e-01]'], 'test/Corona-and-conflict-1280x720.jpg': ['test/Corona-and-conflict-1280x720.jpg', '0', '[9.999387e-01 6.129875e-05]'], 'test/lancet-case2a.jpg': ['test/lancet-case2a.jpg', '0', '[0.994558   0.00544199]'], 'test/lung.jpg': ['test/lung.jpg', '1', '[0.01563091 0.98436904]'], 'test/lungcure.jpg': ['test/lungcure.jpg', '0', '[0.7513701  0.24862997]'], 'test/mdb056.jpg': ['test/mdb056.jpg', '0', '[0.9966061  0.00339394]'], 'test/person438_bacteria_1893.jpeg': ['test/person438_bacteria_1893.jpeg', '1', '[6.1979028e-04 9.9938023e-01]'], 'test/person612_bacteria_2478.jpeg': ['test/person612_bacteria_2478.jpeg', '1', '[0.00117155 0.9988285 ]']}
+{
+    "test/01_8.jpg": [
+        "test/01_8.jpg",
+        "0",
+        "[0.9164602  0.08353976]"
+    ],
+    "test/2020-calendar-with-holidays.png": [
+        "test/2020-calendar-with-holidays.png",
+        "0",
+        "[1.0000000e+00 4.6885702e-08]"
+    ],
+    "test/2_1271153.jpeg": [
+        "test/2_1271153.jpeg",
+        "1",
+        "[4.2023996e-04 9.9957973e-01]"
+    ],
+    "test/Corona-and-conflict-1280x720.jpg": [
+        "test/Corona-and-conflict-1280x720.jpg",
+        "0",
+        "[9.999387e-01 6.129875e-05]"
+    ],
+    "test/lancet-case2a.jpg": [
+        "test/lancet-case2a.jpg",
+        "0",
+        "[0.994558   0.00544199]"
+    ],
+    "test/lung.jpg": [
+        "test/lung.jpg",
+        "1",
+        "[0.01563091 0.98436904]"
+    ],
+    "test/lungcure.jpg": [
+        "test/lungcure.jpg",
+        "0",
+        "[0.7513701  0.24862997]"
+    ],
+    "test/mdb056.jpg": [
+        "test/mdb056.jpg",
+        "0",
+        "[0.9966061  0.00339394]"
+    ],
+    "test/person438_bacteria_1893.jpeg": [
+        "test/person438_bacteria_1893.jpeg",
+        "1",
+        "[6.1979028e-04 9.9938023e-01]"
+    ],
+    "test/person612_bacteria_2478.jpeg": [
+        "test/person612_bacteria_2478.jpeg",
+        "1",
+        "[0.00117155 0.9988285 ]"
+    ]
+}
+Predicted in 1.151 minutes!
+/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAEAAQADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDgGiZT
+ggj600qa65nt5RiW2H1U/wCNQPp2nzfdcof9oYoA5UoO4xTTGD3/ADrpJPD7HmGRWHsc1Qm0i5iO
+DHmgDHNuG7Co3tQc8Vrrp8wUsYyoHrxUXk5zxQBhzWCsM4FZN1YFOg4rrnhx9KqT2wbPFAHFshU8
+02ty80/BLAZHeqdtpU97f29pAMyzyLEg/wBpjgfqaAM+lALHAFdVrvgWfRby/t49Usb+Swcrcpbe
+YHjwwUkhlAxkgZBI5rNs7DkZFAFGGyeQjIOK1LXT9pHGK1Ley4Hy4xV+2tNzjjjPFAElhZhIxxyK
+2LdfLzwcU6G22IB04qwkJ7AmgDf07EtuGToDg1rxDY2WGMZPPtWLpEkdq4EoyjdQK6G5eKVVMORg
+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
+ooooA//Z
+
+Host: cyclops.nic.uoregon.edu:5001
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://object-automation.com/corona.html
+Content-Type: multipart/form-data; boundary=---------------------------280193103531992
+Content-Length: 8105
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+predicting on the test images...
+Found 11 images belonging to 1 classes.
+
+1/1 [==========================>...] - ETA: 0s
+2/1 [======================================================] - 1s 334ms/step
+I0331 22:45:28.834677 140710376370608 _internal.py:122] 103.46.200.149 - - [31/Mar/2020 22:45:28] "[37mPOST /upload HTTP/1.1[0m" 200 -
+[2020-03-31 22:45:39,890] INFO in server: /storage/users/arshad/covid-19
+I0331 22:45:39.890634 140698967863728 server.py:66] /storage/users/arshad/covid-19
+[2020-03-31 22:45:39,893] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0331 22:45:39.893165 140698967863728 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-03-31 22:45:39,893] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/16_7224199.jpeg
+I0331 22:45:39.893366 140698967863728 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/16_7224199.jpeg
+[[9.1646022e-01 8.3539762e-02]
+ [1.0000000e+00 4.6885702e-08]
+ [4.2023996e-04 9.9957973e-01]
+ [9.8616463e-01 1.3835424e-02]
+ [9.9993873e-01 6.1298750e-05]
+ [9.9455798e-01 5.4419893e-03]
+ [1.5630906e-02 9.8436904e-01]
+ [7.5137007e-01 2.4862997e-01]
+ [9.9660611e-01 3.3939388e-03]
+ [6.1979028e-04 9.9938023e-01]
+ [1.1715468e-03 9.9882847e-01]]
+[0 0 1 0 0 0 1 0 0 1 1]
+{'test/01_8.jpg': ['test/01_8.jpg', '0', '[0.9164602  0.08353976]'], 'test/2020-calendar-with-holidays.png': ['test/2020-calendar-with-holidays.png', '0', '[1.0000000e+00 4.6885702e-08]'], 'test/2_1271153.jpeg': ['test/2_1271153.jpeg', '1', '[4.2023996e-04 9.9957973e-01]'], 'test/6_6150794.jpeg': ['test/6_6150794.jpeg', '0', '[0.9861646  0.01383542]'], 'test/Corona-and-conflict-1280x720.jpg': ['test/Corona-and-conflict-1280x720.jpg', '0', '[9.999387e-01 6.129875e-05]'], 'test/lancet-case2a.jpg': ['test/lancet-case2a.jpg', '0', '[0.994558   0.00544199]'], 'test/lung.jpg': ['test/lung.jpg', '1', '[0.01563091 0.98436904]'], 'test/lungcure.jpg': ['test/lungcure.jpg', '0', '[0.7513701  0.24862997]'], 'test/mdb056.jpg': ['test/mdb056.jpg', '0', '[0.9966061  0.00339394]'], 'test/person438_bacteria_1893.jpeg': ['test/person438_bacteria_1893.jpeg', '1', '[6.1979028e-04 9.9938023e-01]'], 'test/person612_bacteria_2478.jpeg': ['test/person612_bacteria_2478.jpeg', '1', '[0.00117155 0.9988285 ]']}
+{
+    "test/01_8.jpg": [
+        "test/01_8.jpg",
+        "0",
+        "[0.9164602  0.08353976]"
+    ],
+    "test/2020-calendar-with-holidays.png": [
+        "test/2020-calendar-with-holidays.png",
+        "0",
+        "[1.0000000e+00 4.6885702e-08]"
+    ],
+    "test/2_1271153.jpeg": [
+        "test/2_1271153.jpeg",
+        "1",
+        "[4.2023996e-04 9.9957973e-01]"
+    ],
+    "test/6_6150794.jpeg": [
+        "test/6_6150794.jpeg",
+        "0",
+        "[0.9861646  0.01383542]"
+    ],
+    "test/Corona-and-conflict-1280x720.jpg": [
+        "test/Corona-and-conflict-1280x720.jpg",
+        "0",
+        "[9.999387e-01 6.129875e-05]"
+    ],
+    "test/lancet-case2a.jpg": [
+        "test/lancet-case2a.jpg",
+        "0",
+        "[0.994558   0.00544199]"
+    ],
+    "test/lung.jpg": [
+        "test/lung.jpg",
+        "1",
+        "[0.01563091 0.98436904]"
+    ],
+    "test/lungcure.jpg": [
+        "test/lungcure.jpg",
+        "0",
+        "[0.7513701  0.24862997]"
+    ],
+    "test/mdb056.jpg": [
+        "test/mdb056.jpg",
+        "0",
+        "[0.9966061  0.00339394]"
+    ],
+    "test/person438_bacteria_1893.jpeg": [
+        "test/person438_bacteria_1893.jpeg",
+        "1",
+        "[6.1979028e-04 9.9938023e-01]"
+    ],
+    "test/person612_bacteria_2478.jpeg": [
+        "test/person612_bacteria_2478.jpeg",
+        "1",
+        "[0.00117155 0.9988285 ]"
+    ]
+}
+Predicted in 1.321 minutes!
+/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAEAAQADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDvo7x1
+4f5h71ZSSKX7p2n0NUMA03BFMRotGR2pvIqtHdSR8ZyPQ1ZS4il6/K1ADg9BwwNKY+4wR60OSkfH
+XFAFW5lKDCnBrNMz7upNSzk8+p96hWJmPyjimBJ5r5Vs4I9KuI5dQ3JHcGnW1iiqGcFmPbsKlnmt
+7NNzuin0HWgBFhik+ZRz/dNSeWDwW/OsafXo0YhCignrnrWRea8z8iRvzoA37u7sIZDHJcICDg5B
+qAPYzRjYwYH+7XDaleyTOZkOR0ODzVBdTkCgBzx2zQB6MlvCM43Y9MVmTSBtw8pR+PWsXTtfnEii
+STevTDVuSTRyYaMbWJ+ZWHB+lAGc0cbE702nse1Ubi0GTj8K6OW3UxZHX0rMZNrFCDj0PagDIW3z
+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
+kBp4NUgSKespHWmB/9k=
+
+Host: cyclops.nic.uoregon.edu:5001
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://object-automation.com/corona.html
+Content-Type: multipart/form-data; boundary=---------------------------1157361646879
+Content-Length: 9008
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+predicting on the test images...
+Found 12 images belonging to 1 classes.
+
+1/1 [========================>.....] - ETA: 0s
+2/1 [==================================================] - 1s 372ms/step
+I0331 22:45:40.821743 140698967863728 _internal.py:122] 103.46.200.149 - - [31/Mar/2020 22:45:40] "[37mPOST /upload HTTP/1.1[0m" 200 -
+[2020-03-31 22:45:51,601] INFO in server: /storage/users/arshad/covid-19
+I0331 22:45:51.601555 140710459863472 server.py:66] /storage/users/arshad/covid-19
+[2020-03-31 22:45:51,603] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0331 22:45:51.603291 140710459863472 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-03-31 22:45:51,603] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/16_7224199.jpeg
+I0331 22:45:51.603546 140710459863472 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/16_7224199.jpeg
+[[9.1646022e-01 8.3539762e-02]
+ [9.9906546e-01 9.3457388e-04]
+ [1.0000000e+00 4.6885702e-08]
+ [4.2023996e-04 9.9957973e-01]
+ [9.8616463e-01 1.3835424e-02]
+ [9.9993873e-01 6.1298750e-05]
+ [9.9455798e-01 5.4419893e-03]
+ [1.5630906e-02 9.8436904e-01]
+ [7.5137001e-01 2.4862999e-01]
+ [9.9660611e-01 3.3939388e-03]
+ [6.1979028e-04 9.9938023e-01]
+ [1.1715473e-03 9.9882847e-01]]
+[0 0 0 1 0 0 0 1 0 0 1 1]
+{'test/01_8.jpg': ['test/01_8.jpg', '0', '[0.9164602  0.08353976]'], 'test/16_7224199.jpeg': ['test/16_7224199.jpeg', '0', '[9.9906546e-01 9.3457388e-04]'], 'test/2020-calendar-with-holidays.png': ['test/2020-calendar-with-holidays.png', '0', '[1.0000000e+00 4.6885702e-08]'], 'test/2_1271153.jpeg': ['test/2_1271153.jpeg', '1', '[4.2023996e-04 9.9957973e-01]'], 'test/6_6150794.jpeg': ['test/6_6150794.jpeg', '0', '[0.9861646  0.01383542]'], 'test/Corona-and-conflict-1280x720.jpg': ['test/Corona-and-conflict-1280x720.jpg', '0', '[9.999387e-01 6.129875e-05]'], 'test/lancet-case2a.jpg': ['test/lancet-case2a.jpg', '0', '[0.994558   0.00544199]'], 'test/lung.jpg': ['test/lung.jpg', '1', '[0.01563091 0.98436904]'], 'test/lungcure.jpg': ['test/lungcure.jpg', '0', '[0.75137    0.24862999]'], 'test/mdb056.jpg': ['test/mdb056.jpg', '0', '[0.9966061  0.00339394]'], 'test/person438_bacteria_1893.jpeg': ['test/person438_bacteria_1893.jpeg', '1', '[6.1979028e-04 9.9938023e-01]'], 'test/person612_bacteria_2478.jpeg': ['test/person612_bacteria_2478.jpeg', '1', '[0.00117155 0.9988285 ]']}
+{
+    "test/01_8.jpg": [
+        "test/01_8.jpg",
+        "0",
+        "[0.9164602  0.08353976]"
+    ],
+    "test/16_7224199.jpeg": [
+        "test/16_7224199.jpeg",
+        "0",
+        "[9.9906546e-01 9.3457388e-04]"
+    ],
+    "test/2020-calendar-with-holidays.png": [
+        "test/2020-calendar-with-holidays.png",
+        "0",
+        "[1.0000000e+00 4.6885702e-08]"
+    ],
+    "test/2_1271153.jpeg": [
+        "test/2_1271153.jpeg",
+        "1",
+        "[4.2023996e-04 9.9957973e-01]"
+    ],
+    "test/6_6150794.jpeg": [
+        "test/6_6150794.jpeg",
+        "0",
+        "[0.9861646  0.01383542]"
+    ],
+    "test/Corona-and-conflict-1280x720.jpg": [
+        "test/Corona-and-conflict-1280x720.jpg",
+        "0",
+        "[9.999387e-01 6.129875e-05]"
+    ],
+    "test/lancet-case2a.jpg": [
+        "test/lancet-case2a.jpg",
+        "0",
+        "[0.994558   0.00544199]"
+    ],
+    "test/lung.jpg": [
+        "test/lung.jpg",
+        "1",
+        "[0.01563091 0.98436904]"
+    ],
+    "test/lungcure.jpg": [
+        "test/lungcure.jpg",
+        "0",
+        "[0.75137    0.24862999]"
+    ],
+    "test/mdb056.jpg": [
+        "test/mdb056.jpg",
+        "0",
+        "[0.9966061  0.00339394]"
+    ],
+    "test/person438_bacteria_1893.jpeg": [
+        "test/person438_bacteria_1893.jpeg",
+        "1",
+        "[6.1979028e-04 9.9938023e-01]"
+    ],
+    "test/person612_bacteria_2478.jpeg": [
+        "test/person612_bacteria_2478.jpeg",
+        "1",
+        "[0.00117155 0.9988285 ]"
+    ]
+}
+Predicted in 1.429 minutes!
+/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAEAAQADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDzbYaT
+afSurk8NIf8AVzj8aqyeG7kfcZWH1phc52lAJ6CteTRL1OsRP0qSDw/fy4IgIB7kgUBcxhGaUQse
+xrdTSnjm8qZGRh1DDFXF02ADDA/UUBc5oW59KeLU+ldSuj279JHX0+XNK2iso/dujfXg0Ac0toc1
+L9lbGBWy9lNCcvEQPXrUW1mOAKAKCwsOTikILSAAd+avfZnY8nj2qb7KVwV/lQBlMDuPHenKOa0/
+IQ/eHNKLLnIX86AIAMNj0wK1IBiFBUMVg5OWBx7d6ueUyAZUgDpxQIVug+lOA+VRStHkAjuKeqMX
+UY70wL8p8vS/rWEnRjW1qORYxqvP0rIMUkcQ3Iwz0460AX7BcQ59qZdHLYqxbrsgqpcHMhoArHlj
+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
+S7nwKpVJK25qjpFH/9k=
+
+Host: cyclops.nic.uoregon.edu:5001
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://object-automation.com/corona.html
+Content-Type: multipart/form-data; boundary=---------------------------26036295072398
+Content-Length: 9013
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+predicting on the test images...
+Found 12 images belonging to 1 classes.
+
+1/1 [========================>.....] - ETA: 0s
+2/1 [==================================================] - 1s 364ms/step
+I0331 22:45:53.599462 140710459863472 _internal.py:122] 103.46.200.149 - - [31/Mar/2020 22:45:53] "[37mPOST /upload HTTP/1.1[0m" 200 -
+2020-03-31 22:51:14.492952: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-03-31 22:51:17.594358: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-03-31 22:51:17.640590: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2020-03-31 22:51:17.640645: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: cyclops
+2020-03-31 22:51:17.640657: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: cyclops
+2020-03-31 22:51:17.640737: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 418.87.0
+2020-03-31 22:51:17.640793: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 418.87.0
+2020-03-31 22:51:17.640804: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 418.87.0
+Using TensorFlow backend.
+WARNING: Logging before flag parsing goes to stderr.
+W0331 22:51:18.154487 140735942380496 deprecation_wrapper.py:119] From server.py:88: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W0331 22:51:18.263609 140735942380496 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+W0331 22:51:18.417631 140735942380496 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4074: The name tf.nn.avg_pool is deprecated. Please use tf.nn.avg_pool2d instead.
+
+W0331 22:51:19.970972 140735942380496 deprecation.py:323] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0331 22:51:20.270609 140735942380496 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+/storage/users/arshad/covid-19
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+I0331 22:51:20.396332 140735942380496 _internal.py:122]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2020-03-31 22:51:55.320090: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-03-31 22:51:57.691520: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-03-31 22:51:57.732794: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2020-03-31 22:51:57.732841: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: cyclops
+2020-03-31 22:51:57.732851: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: cyclops
+2020-03-31 22:51:57.733000: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 418.87.0
+2020-03-31 22:51:57.733048: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 418.87.0
+2020-03-31 22:51:57.733057: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 418.87.0
+Using TensorFlow backend.
+WARNING: Logging before flag parsing goes to stderr.
+W0331 22:51:58.132044 140736053005264 deprecation_wrapper.py:119] From server.py:88: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W0331 22:51:58.206250 140736053005264 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+W0331 22:51:58.359431 140736053005264 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4074: The name tf.nn.avg_pool is deprecated. Please use tf.nn.avg_pool2d instead.
+
+W0331 22:51:59.071212 140736053005264 deprecation.py:323] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0331 22:51:59.384709 140736053005264 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+/storage/users/arshad/covid-19
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "server.py", line 194, in <module>
+    app.run(host='0.0.0.0', port='5001',debug=False)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/werkzeug/serving.py", line 1012, in run_simple
+    inner()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/werkzeug/serving.py", line 965, in inner
+    fd=fd,
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/werkzeug/serving.py", line 808, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/werkzeug/serving.py", line 701, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+[2020-03-31 22:52:46,380] INFO in server: /storage/users/arshad/covid-19
+I0331 22:52:46.380360 140709562610096 server.py:66] /storage/users/arshad/covid-19
+[2020-03-31 22:52:46,382] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0331 22:52:46.382022 140709562610096 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-03-31 22:52:46,382] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/16_7224199.jpeg
+I0331 22:52:46.382628 140709562610096 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/16_7224199.jpeg
+Host: cyclops.nic.uoregon.edu:5001
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://object-automation.com/corona.html
+Content-Type: multipart/form-data; boundary=---------------------------122642103730819
+Content-Length: 9018
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+predicting on the test images...
+Found 12 images belonging to 1 classes.
+
+1/1 [========================>.....] - ETA: 0s
+2/1 [==================================================] - 1s 508ms/step
+[2020-03-31 22:52:47,651] ERROR in app: Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 165, in predict
+    shutil.rmtree('uploads/test/')
+NameError: name 'shutil' is not defined
+E0331 22:52:47.651923 140709562610096 app.py:1891] Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 165, in predict
+    shutil.rmtree('uploads/test/')
+NameError: name 'shutil' is not defined
+I0331 22:52:47.655148 140709562610096 _internal.py:122] 103.46.200.149 - - [31/Mar/2020 22:52:47] "[1m[35mPOST /upload HTTP/1.1[0m" 500 -
+2020-03-31 22:53:18.442567: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-03-31 22:53:20.894532: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-03-31 22:53:20.937739: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2020-03-31 22:53:20.937791: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: cyclops
+2020-03-31 22:53:20.937803: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: cyclops
+2020-03-31 22:53:20.937896: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 418.87.0
+2020-03-31 22:53:20.937947: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 418.87.0
+2020-03-31 22:53:20.937957: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 418.87.0
+Using TensorFlow backend.
+WARNING: Logging before flag parsing goes to stderr.
+W0331 22:53:21.432699 140735913741264 deprecation_wrapper.py:119] From server.py:88: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W0331 22:53:21.507988 140735913741264 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+W0331 22:53:21.662898 140735913741264 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4074: The name tf.nn.avg_pool is deprecated. Please use tf.nn.avg_pool2d instead.
+
+W0331 22:53:22.426967 140735913741264 deprecation.py:323] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0331 22:53:22.809893 140735913741264 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+/storage/users/arshad/covid-19
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "server.py", line 194, in <module>
+    app.run(host='0.0.0.0', port='5001',debug=False)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/werkzeug/serving.py", line 1012, in run_simple
+    inner()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/werkzeug/serving.py", line 965, in inner
+    fd=fd,
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/werkzeug/serving.py", line 808, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/werkzeug/serving.py", line 701, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2020-03-31 22:55:02.551591: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-03-31 22:55:04.842413: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-03-31 22:55:04.884231: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2020-03-31 22:55:04.884283: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: cyclops
+2020-03-31 22:55:04.884295: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: cyclops
+2020-03-31 22:55:04.884434: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 418.87.0
+2020-03-31 22:55:04.884485: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 418.87.0
+2020-03-31 22:55:04.884495: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 418.87.0
+Using TensorFlow backend.
+WARNING: Logging before flag parsing goes to stderr.
+W0331 22:55:05.332807 140736374787024 deprecation_wrapper.py:119] From server.py:88: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W0331 22:55:05.408613 140736374787024 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+W0331 22:55:05.562168 140736374787024 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4074: The name tf.nn.avg_pool is deprecated. Please use tf.nn.avg_pool2d instead.
+
+W0331 22:55:06.137181 140736374787024 deprecation.py:323] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0331 22:55:06.393478 140736374787024 deprecation_wrapper.py:119] From /home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+/storage/users/arshad/covid-19
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+I0331 22:55:06.503072 140736374787024 _internal.py:122]  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[2020-03-31 22:55:21,933] INFO in server: /storage/users/arshad/covid-19
+I0331 22:55:21.933035 140710795407792 server.py:66] /storage/users/arshad/covid-19
+[2020-03-31 22:55:21,935] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0331 22:55:21.935147 140710795407792 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-03-31 22:55:21,935] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/16_7224199.jpeg
+I0331 22:55:21.935720 140710795407792 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/16_7224199.jpeg
+Host: cyclops.nic.uoregon.edu:5001
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://object-automation.com/corona.html
+Content-Type: multipart/form-data; boundary=---------------------------129631674520469
+Content-Length: 9018
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+predicting on the test images...
+Found 12 images belonging to 1 classes.
+
+1/1 [========================>.....] - ETA: 0s
+2/1 [==================================================] - 1s 484ms/step
+I0331 22:55:23.763741 140710795407792 _internal.py:122] 103.46.200.149 - - [31/Mar/2020 22:55:23] "[37mPOST /upload HTTP/1.1[0m" 200 -
+[2020-03-31 22:55:46,527] INFO in server: /storage/users/arshad/covid-19
+I0331 22:55:46.527001 140710703460784 server.py:66] /storage/users/arshad/covid-19
+[2020-03-31 22:55:46,530] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0331 22:55:46.530256 140710703460784 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-03-31 22:55:47,870] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/0_3567806.jpeg
+I0331 22:55:47.870235 140710703460784 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/0_3567806.jpeg
+[[9.1646022e-01 8.3539762e-02]
+ [9.9906546e-01 9.3457388e-04]
+ [1.0000000e+00 4.6885702e-08]
+ [4.2023996e-04 9.9957973e-01]
+ [9.8616463e-01 1.3835424e-02]
+ [9.9993873e-01 6.1298750e-05]
+ [9.9455798e-01 5.4419893e-03]
+ [1.5630906e-02 9.8436904e-01]
+ [7.5137001e-01 2.4862999e-01]
+ [9.9660611e-01 3.3939388e-03]
+ [6.1979028e-04 9.9938023e-01]
+ [1.1715473e-03 9.9882847e-01]]
+[0 0 0 1 0 0 0 1 0 0 1 1]
+Predicted in 1.263 minutes!
+Host: cyclops.nic.uoregon.edu:5001
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://object-automation.com/corona.html
+Content-Type: multipart/form-data; boundary=---------------------------228881145030451
+Content-Length: 13369
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+predicting on the test images...
+Found 1 images belonging to 1 classes.
+
+1/0 [============================================================================================================================================================================================================================================================================================================] - 0s 87ms/step
+I0331 22:55:48.383734 140710703460784 _internal.py:122] 103.46.200.149 - - [31/Mar/2020 22:55:48] "[37mPOST /upload HTTP/1.1[0m" 200 -
+[2020-03-31 22:55:57,329] INFO in server: /storage/users/arshad/covid-19
+I0331 22:55:57.329171 140710795407792 server.py:66] /storage/users/arshad/covid-19
+[2020-03-31 22:55:57,330] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0331 22:55:57.330877 140710795407792 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-03-31 22:55:57,961] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/24_9603358.jpeg
+I0331 22:55:57.961442 140710795407792 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/24_9603358.jpeg
+[[0.9876621  0.01233799]]
+[0]
+Predicted in 0.124 minutes!
+Host: cyclops.nic.uoregon.edu:5001
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://object-automation.com/corona.html
+Content-Type: multipart/form-data; boundary=---------------------------210371626013405
+Content-Length: 7616
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+predicting on the test images...
+Found 1 images belonging to 1 classes.
+
+1/0 [============================================================================================================================================================================================================================================================================================================] - 0s 87ms/step
+I0331 22:55:58.322285 140710795407792 _internal.py:122] 103.46.200.149 - - [31/Mar/2020 22:55:58] "[37mPOST /upload HTTP/1.1[0m" 200 -
+[2020-03-31 22:56:06,574] INFO in server: /storage/users/arshad/covid-19
+I0331 22:56:06.574931 140699370516912 server.py:66] /storage/users/arshad/covid-19
+[2020-03-31 22:56:06,576] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0331 22:56:06.576886 140699370516912 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-03-31 22:56:06,644] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/1_209794.jpeg
+I0331 22:56:06.644541 140699370516912 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/1_209794.jpeg
+[[0.9883094  0.01169067]]
+[0]
+Predicted in 0.126 minutes!
+Host: cyclops.nic.uoregon.edu:5001
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://object-automation.com/corona.html
+Content-Type: multipart/form-data; boundary=---------------------------126451254629115
+Content-Length: 9021
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+predicting on the test images...
+Found 1 images belonging to 1 classes.
+
+1/0 [============================================================================================================================================================================================================================================================================================================] - 0s 86ms/step
+I0331 22:56:07.135019 140699370516912 _internal.py:122] 103.46.200.149 - - [31/Mar/2020 22:56:07] "[37mPOST /upload HTTP/1.1[0m" 200 -
+[2020-03-31 22:56:13,708] INFO in server: /storage/users/arshad/covid-19
+I0331 22:56:13.708161 140697726087600 server.py:66] /storage/users/arshad/covid-19
+[2020-03-31 22:56:13,709] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0331 22:56:13.709756 140697726087600 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-03-31 22:56:14,126] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/13_8642020.jpeg
+I0331 22:56:14.126807 140697726087600 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/13_8642020.jpeg
+[[0.00165392 0.9983461 ]]
+[1]
+Predicted in 0.127 minutes!
+Host: cyclops.nic.uoregon.edu:5001
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://object-automation.com/corona.html
+Content-Type: multipart/form-data; boundary=---------------------------178721843717016
+Content-Length: 8197
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+predicting on the test images...
+Found 1 images belonging to 1 classes.
+
+1/0 [============================================================================================================================================================================================================================================================================================================] - 0s 87ms/step
+I0331 22:56:14.532164 140697726087600 _internal.py:122] 103.46.200.149 - - [31/Mar/2020 22:56:14] "[37mPOST /upload HTTP/1.1[0m" 200 -
+[2020-03-31 22:56:33,885] INFO in server: /storage/users/arshad/covid-19
+I0331 22:56:33.885303 140697751450032 server.py:66] /storage/users/arshad/covid-19
+[2020-03-31 22:56:33,887] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0331 22:56:33.887966 140697751450032 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-03-31 22:56:34,067] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/1_7348289.jpeg
+I0331 22:56:34.067526 140697751450032 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/1_7348289.jpeg
+[[0.00752508 0.99247485]]
+[1]
+Predicted in 0.129 minutes!
+Host: cyclops.nic.uoregon.edu:5001
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://object-automation.com/corona.html
+Content-Type: multipart/form-data; boundary=---------------------------680771077120
+Content-Length: 7981
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+predicting on the test images...
+Found 1 images belonging to 1 classes.
+
+1/0 [============================================================================================================================================================================================================================================================================================================] - 0s 86ms/step
+I0331 22:56:34.683307 140697751450032 _internal.py:122] 103.46.200.149 - - [31/Mar/2020 22:56:34] "[37mPOST /upload HTTP/1.1[0m" 200 -
+[2020-03-31 22:56:34,732] INFO in server: /storage/users/arshad/covid-19
+I0331 22:56:34.732836 140707918180784 server.py:66] /storage/users/arshad/covid-19
+[2020-03-31 22:56:34,734] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0331 22:56:34.734536 140707918180784 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-03-31 22:56:34,843] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/1_7348289.jpeg
+I0331 22:56:34.843858 140707918180784 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/1_7348289.jpeg
+[[0.9740336  0.02596641]]
+[0]
+Predicted in 0.129 minutes!
+Host: cyclops.nic.uoregon.edu:5001
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://object-automation.com/corona.html
+Content-Type: multipart/form-data; boundary=---------------------------2877556625498
+Content-Length: 7986
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+predicting on the test images...
+Found 1 images belonging to 1 classes.
+
+1/0 [============================================================================================================================================================================================================================================================================================================] - 0s 87ms/step
+I0331 22:56:35.256567 140707918180784 _internal.py:122] 103.46.200.149 - - [31/Mar/2020 22:56:35] "[37mPOST /upload HTTP/1.1[0m" 200 -
+[2020-04-01 00:22:08,858] INFO in server: /storage/users/arshad/covid-19
+I0401 00:22:08.858440 140708513706416 server.py:66] /storage/users/arshad/covid-19
+[2020-04-01 00:22:09,095] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0401 00:22:09.095418 140708513706416 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-04-01 00:22:09,192] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/lungcure.jpg
+I0401 00:22:09.192531 140708513706416 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/lungcure.jpg
+[[0.9740336  0.02596641]]
+[0]
+Predicted in 0.125 minutes!
+Host: cyclops.nic.uoregon.edu:5001
+Origin: http://www.object-automation.com
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryNbbBw4Atwqrh1iyh
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
+Referer: http://www.object-automation.com/corona.html
+Content-Length: 6818
+Accept-Language: en-us
+
+
+predicting on the test images...
+Found 1 images belonging to 1 classes.
+
+1/0 [============================================================================================================================================================================================================================================================================================================] - 0s 94ms/step
+I0401 00:22:09.517553 140708513706416 _internal.py:122] 122.172.115.12 - - [01/Apr/2020 00:22:09] "[37mPOST /upload HTTP/1.1[0m" 200 -
+[2020-04-01 00:37:45,158] INFO in server: /storage/users/arshad/covid-19
+I0401 00:37:45.158602 140699328246192 server.py:66] /storage/users/arshad/covid-19
+[2020-04-01 00:37:45,978] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0401 00:37:45.978801 140699328246192 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-04-01 00:37:46,054] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/tankuimage.jpg
+I0401 00:37:46.054020 140699328246192 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/tankuimage.jpg
+[[0.7513698  0.24863021]]
+[0]
+Predicted in 0.123 minutes!
+Host: cyclops.nic.uoregon.edu:5001
+Origin: http://object-automation.com
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryG8BXLpDNUVWEBA0x
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
+Referer: http://object-automation.com/corona.html
+Content-Length: 19354
+Accept-Language: en-us
+
+
+predicting on the test images...
+Found 1 images belonging to 1 classes.
+
+1/0 [============================================================================================================================================================================================================================================================================================================] - 0s 87ms/step
+I0401 00:37:46.418060 140699328246192 _internal.py:122] 122.172.115.12 - - [01/Apr/2020 00:37:46] "[37mPOST /upload HTTP/1.1[0m" 200 -
+[2020-04-01 00:39:14,306] INFO in server: /storage/users/arshad/covid-19
+I0401 00:39:14.306226 140703120159152 server.py:66] /storage/users/arshad/covid-19
+[2020-04-01 00:39:14,667] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0401 00:39:14.667508 140703120159152 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-04-01 00:39:14,681] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/lung.jpg
+I0401 00:39:14.681695 140703120159152 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/lung.jpg
+[[0.9273365  0.07266346]]
+[0]
+Predicted in 0.131 minutes!
+Host: cyclops.nic.uoregon.edu:5001
+Origin: http://object-automation.com
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryT9OGNtFlWuZHnwXP
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
+Referer: http://object-automation.com/corona.html
+Content-Length: 10368
+Accept-Language: en-us
+
+
+predicting on the test images...
+Found 1 images belonging to 1 classes.
+
+1/0 [============================================================================================================================================================================================================================================================================================================] - 0s 84ms/step
+I0401 00:39:15.021374 140703120159152 _internal.py:122] 122.172.115.12 - - [01/Apr/2020 00:39:15] "[37mPOST /upload HTTP/1.1[0m" 200 -
+[2020-04-01 00:46:16,180] INFO in server: /storage/users/arshad/covid-19
+I0401 00:46:16.180923 140704193900976 server.py:66] /storage/users/arshad/covid-19
+[2020-04-01 00:46:16,540] INFO in server: /storage/users/arshad/covid-19/uploads/test/
+I0401 00:46:16.540120 140704193900976 server.py:74] /storage/users/arshad/covid-19/uploads/test/
+[2020-04-01 00:46:16,599] INFO in server: saving /storage/users/arshad/covid-19/uploads/test/3_6006192.jpeg.jpg
+I0401 00:46:16.599797 140704193900976 server.py:79] saving /storage/users/arshad/covid-19/uploads/test/3_6006192.jpeg.jpg
+[[0.01563089 0.98436904]]
+[1]
+Predicted in 0.123 minutes!
+Host: cyclops.nic.uoregon.edu:5001
+Origin: http://object-automation.com
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBGEvbx6jtNpubuQv
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
+Referer: http://object-automation.com/corona.html
+Content-Length: 8333
+Accept-Language: en-us
+
+
+predicting on the test images...
+Found 1 images belonging to 1 classes.
+
+1/0 [============================================================================================================================================================================================================================================================================================================] - 0s 90ms/step
+I0401 00:46:17.198579 140704193900976 _internal.py:122] 122.172.115.12 - - [01/Apr/2020 00:46:17] "[37mPOST /upload HTTP/1.1[0m" 200 -

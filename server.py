@@ -67,7 +67,7 @@ def api_root():
     if request.method == 'POST' and request.files['image']:
     	#print(request.is_json)
     	#content = request.get_json()
-    	print(request)
+    	print(request.headers)
     	params = request.values
     	names=params.get('name')
     	ids=params.get('id')
@@ -82,7 +82,7 @@ def api_root():
     	#return send_from_directory(app.config['UPLOAD_FOLDER'],img_name, as_attachment=True)
     	return predicted_classes
     else:
-    	return "Where is the image?"
+    	return "<html><title></title><body><h1><center>Please upload an image</center></h1></body></html>"
 
 import tensorflow as tf
 session = tf.Session(graph=tf.Graph())
@@ -141,8 +141,8 @@ def predict(img_name,names,ids):
         #print (a, b, c)
         data[a.split('\\')[len(a.split('\\'))-1]] = [a.split('\\')[len(a.split('\\'))-1],str(b),str(c)]  
         
-    print(data)
-    print (json.dumps(data, indent=4))
+    #print(data)
+    #print (json.dumps(data, indent=4))
    
     
     
@@ -155,14 +155,16 @@ def predict(img_name,names,ids):
     #print("Test Accuracy = {0:.2f}%".format(len(correct_predictions)*100/test_generator.samples))
     print("Predicted in {0:.3f} minutes!".format(prediction_time/60))
     #return json.dumps(data, indent=4)
-    
+    import shutil
     import base64
     base64img = ''
     with open('uploads/test/'+img_name,mode = 'rb') as image_file:
         img = image_file.read()
         base64img = base64.encodebytes(img).decode("utf-8")
     
-    print(base64img)
+    shutil.rmtree('uploads/test/')
+
+    #print(base64img)
     if b==0:
         d="covid"
     else:

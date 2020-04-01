@@ -1,0 +1,485 @@
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lancet-case2a.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 124, in predict
+    test_dir1, test_generator = test_datagenerator()
+  File "server.py", line 97, in test_datagenerator
+    test_datagen = ImageDataGenerator(rescale=1. / 255)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/preprocessing/image.py", line 292, in __init__
+    dtype=dtype)
+TypeError: __init__() got an unexpected keyword argument 'interpolation_order'
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lancet-case2a.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 124, in predict
+    test_dir1, test_generator = test_datagenerator()
+  File "server.py", line 97, in test_datagenerator
+    test_datagen = ImageDataGenerator(rescale=1. / 255)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/preprocessing/image.py", line 292, in __init__
+    dtype=dtype)
+TypeError: __init__() got an unexpected keyword argument 'interpolation_order'
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lancet-case2a.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 124, in predict
+    test_dir1, test_generator = test_datagenerator()
+  File "server.py", line 97, in test_datagenerator
+    test_datagen = ImageDataGenerator(rescale=1. / 255)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/preprocessing/image.py", line 292, in __init__
+    dtype=dtype)
+TypeError: __init__() got an unexpected keyword argument 'interpolation_order'
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lancet-case2a.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 124, in predict
+    test_dir1, test_generator = test_datagenerator()
+  File "server.py", line 97, in test_datagenerator
+    test_datagen = ImageDataGenerator(rescale=1. / 255)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/preprocessing/image.py", line 292, in __init__
+    dtype=dtype)
+TypeError: __init__() got an unexpected keyword argument 'interpolation_order'
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lancet-case2a.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 124, in predict
+    test_dir1, test_generator = test_datagenerator()
+  File "server.py", line 97, in test_datagenerator
+    test_datagen = ImageDataGenerator(rescale=1. / 255)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/preprocessing/image.py", line 292, in __init__
+    dtype=dtype)
+TypeError: __init__() got an unexpected keyword argument 'interpolation_order'
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lancet-case2a.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 124, in predict
+    test_dir1, test_generator = test_datagenerator()
+  File "server.py", line 97, in test_datagenerator
+    test_datagen = ImageDataGenerator(rescale=1. / 255)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/preprocessing/image.py", line 292, in __init__
+    dtype=dtype)
+TypeError: __init__() got an unexpected keyword argument 'interpolation_order'
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lancet-case2a.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 130, in predict
+    verbose=1)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/legacy/interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/engine/training.py", line 1846, in predict_generator
+    verbose=verbose)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/engine/training_generator.py", line 527, in predict_generator
+    outs = model.predict_on_batch(x)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/engine/training.py", line 1574, in predict_on_batch
+    x, _, _ = self._standardize_user_data(x)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/engine/training.py", line 579, in _standardize_user_data
+    exception_prefix='input')
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/keras/engine/training_utils.py", line 145, in standardize_input_data
+    str(data_shape))
+ValueError: Error when checking input: expected input_2 to have shape (224, 224, 3) but got array with shape (256, 256, 3)
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lancet-case2a.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 175, in predict
+    strhtml='<html><head><style>  body{background-color:RosyBrown;}#customers {font-family: "Lucida Console", Monaco, monospace;border-collapse: collapse;border-radius: 2em;overflow: hidden;width:80%;height:45%;margin-top: 150px;margin-right: 150px;margin-left:150px;}#customers td, #customers th {border: 1px solid #ddd;padding: 8px;}#customers tr:nth-child(even){background-color: LavenderBlush;}#customers tr:hover {background-color: #ddd;}#customers th {padding-top: 12px;padding-bottom: 12px;text-align: left;background-color: DeepSkyBlue;color: white;}</style></head><body><p></p><table id="customers" ><tr><th>PATIENT_NAME</th><th>PATIENT_ID</th><th>IMAGE_NAME</th><th>PREDICTED_CLASS</th><th>PREDICTIONS</th><th>IMAGE</th></tr><tr><td>'+names+'</td><td>'+ids+'</td><td>'+a[5:]+'</td><td>'+str(d)+'</td><td>'+str(dictOfWords)+'</td><td><img src="data:image/jpeg;base64,'+base64img+'"></td></tr></table></body></html>'
+TypeError: must be str, not NoneType
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lancet-case2a.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 175, in predict
+    strhtml='<html><head><style>  body{background-color:RosyBrown;}#customers {font-family: "Lucida Console", Monaco, monospace;border-collapse: collapse;border-radius: 2em;overflow: hidden;width:80%;height:45%;margin-top: 150px;margin-right: 150px;margin-left:150px;}#customers td, #customers th {border: 1px solid #ddd;padding: 8px;}#customers tr:nth-child(even){background-color: LavenderBlush;}#customers tr:hover {background-color: #ddd;}#customers th {padding-top: 12px;padding-bottom: 12px;text-align: left;background-color: DeepSkyBlue;color: white;}</style></head><body><p></p><table id="customers" ><tr><th>PATIENT_NAME</th><th>PATIENT_ID</th><th>IMAGE_NAME</th><th>PREDICTED_CLASS</th><th>PREDICTIONS</th><th>IMAGE</th></tr><tr><td>'+names+'</td><td>'+ids+'</td><td>'+a[5:]+'</td><td>'+str(d)+'</td><td>'+str(dictOfWords)+'</td><td><img src="data:image/jpeg;base64,'+base64img+'"></td></tr></table></body></html>'
+TypeError: must be str, not NoneType
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lancet-case2a.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 175, in predict
+    strhtml='<html><head><style>  body{background-color:RosyBrown;}#customers {font-family: "Lucida Console", Monaco, monospace;border-collapse: collapse;border-radius: 2em;overflow: hidden;width:80%;height:45%;margin-top: 150px;margin-right: 150px;margin-left:150px;}#customers td, #customers th {border: 1px solid #ddd;padding: 8px;}#customers tr:nth-child(even){background-color: LavenderBlush;}#customers tr:hover {background-color: #ddd;}#customers th {padding-top: 12px;padding-bottom: 12px;text-align: left;background-color: DeepSkyBlue;color: white;}</style></head><body><p></p><table id="customers" ><tr><th>PATIENT_NAME</th><th>PATIENT_ID</th><th>IMAGE_NAME</th><th>PREDICTED_CLASS</th><th>PREDICTIONS</th><th>IMAGE</th></tr><tr><td>'+names+'</td><td>'+ids+'</td><td>'+a[5:]+'</td><td>'+str(d)+'</td><td>'+str(dictOfWords)+'</td><td><img src="data:image/jpeg;base64,'+base64img+'"></td></tr></table></body></html>'
+TypeError: must be str, not NoneType
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lancet-case2a.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lancet-case2a.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lancet-case2a.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/mdb056.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lung.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lung.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lung.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lung.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lung.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lung.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/2020-calendar-with-holidays.png
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/2020-calendar-with-holidays.png
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/Corona-and-conflict-1280x720.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/person438_bacteria_1893.jpeg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/01_8.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 175, in predict
+    strhtml='<html><head><style>  body{background-color:RosyBrown;}#customers {font-family: "Lucida Console", Monaco, monospace;border-collapse: collapse;border-radius: 2em;overflow: hidden;width:80%;height:45%;margin-top: 150px;margin-right: 150px;margin-left:150px;}#customers td, #customers th {border: 1px solid #ddd;padding: 8px;}#customers tr:nth-child(even){background-color: LavenderBlush;}#customers tr:hover {background-color: #ddd;}#customers th {padding-top: 12px;padding-bottom: 12px;text-align: left;background-color: DeepSkyBlue;color: white;}</style></head><body><p></p><table id="customers" ><tr><th>PATIENT_NAME</th><th>PATIENT_ID</th><th>IMAGE_NAME</th><th>PREDICTED_CLASS</th><th>PREDICTIONS</th><th>IMAGE</th></tr><tr><td>'+names+'</td><td>'+ids+'</td><td>'+a[5:]+'</td><td>'+str(d)+'</td><td>'+str(dictOfWords)+'</td><td><img src="data:image/jpeg;base64,'+base64img+'"></td></tr></table></body></html>'
+TypeError: must be str, not NoneType
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/01_8.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 175, in predict
+    strhtml='<html><head><style>  body{background-color:RosyBrown;}#customers {font-family: "Lucida Console", Monaco, monospace;border-collapse: collapse;border-radius: 2em;overflow: hidden;width:80%;height:45%;margin-top: 150px;margin-right: 150px;margin-left:150px;}#customers td, #customers th {border: 1px solid #ddd;padding: 8px;}#customers tr:nth-child(even){background-color: LavenderBlush;}#customers tr:hover {background-color: #ddd;}#customers th {padding-top: 12px;padding-bottom: 12px;text-align: left;background-color: DeepSkyBlue;color: white;}</style></head><body><p></p><table id="customers" ><tr><th>PATIENT_NAME</th><th>PATIENT_ID</th><th>IMAGE_NAME</th><th>PREDICTED_CLASS</th><th>PREDICTIONS</th><th>IMAGE</th></tr><tr><td>'+names+'</td><td>'+ids+'</td><td>'+a[5:]+'</td><td>'+str(d)+'</td><td>'+str(dictOfWords)+'</td><td><img src="data:image/jpeg;base64,'+base64img+'"></td></tr></table></body></html>'
+TypeError: must be str, not NoneType
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/01_8.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 175, in predict
+    strhtml='<html><head><style>  body{background-color:RosyBrown;}#customers {font-family: "Lucida Console", Monaco, monospace;border-collapse: collapse;border-radius: 2em;overflow: hidden;width:80%;height:45%;margin-top: 150px;margin-right: 150px;margin-left:150px;}#customers td, #customers th {border: 1px solid #ddd;padding: 8px;}#customers tr:nth-child(even){background-color: LavenderBlush;}#customers tr:hover {background-color: #ddd;}#customers th {padding-top: 12px;padding-bottom: 12px;text-align: left;background-color: DeepSkyBlue;color: white;}</style></head><body><p></p><table id="customers" ><tr><th>PATIENT_NAME</th><th>PATIENT_ID</th><th>IMAGE_NAME</th><th>PREDICTED_CLASS</th><th>PREDICTIONS</th><th>IMAGE</th></tr><tr><td>'+names+'</td><td>'+ids+'</td><td>'+a[5:]+'</td><td>'+str(d)+'</td><td>'+str(dictOfWords)+'</td><td><img src="data:image/jpeg;base64,'+base64img+'"></td></tr></table></body></html>'
+TypeError: must be str, not NoneType
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/person612_bacteria_2478.jpeg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/01_8.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 175, in predict
+    strhtml='<html><head><style>  body{background-color:RosyBrown;}#customers {font-family: "Lucida Console", Monaco, monospace;border-collapse: collapse;border-radius: 2em;overflow: hidden;width:80%;height:45%;margin-top: 150px;margin-right: 150px;margin-left:150px;}#customers td, #customers th {border: 1px solid #ddd;padding: 8px;}#customers tr:nth-child(even){background-color: LavenderBlush;}#customers tr:hover {background-color: #ddd;}#customers th {padding-top: 12px;padding-bottom: 12px;text-align: left;background-color: DeepSkyBlue;color: white;}</style></head><body><p></p><table id="customers" ><tr><th>PATIENT_NAME</th><th>PATIENT_ID</th><th>IMAGE_NAME</th><th>PREDICTED_CLASS</th><th>PREDICTIONS</th><th>IMAGE</th></tr><tr><td>'+names+'</td><td>'+ids+'</td><td>'+a[5:]+'</td><td>'+str(d)+'</td><td>'+str(dictOfWords)+'</td><td><img src="data:image/jpeg;base64,'+base64img+'"></td></tr></table></body></html>'
+TypeError: must be str, not NoneType
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lung.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lungcure.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lungcure.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/2_1271153.jpeg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/6_6150794.jpeg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/16_7224199.jpeg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/16_7224199.jpeg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/16_7224199.jpeg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/users/gansys/anaconda3-sangeek/envs/wmlce160/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 81, in api_root
+    predicted_classes = predict(img_name,names,ids)
+  File "server.py", line 165, in predict
+    shutil.rmtree('uploads/test/')
+NameError: name 'shutil' is not defined
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/16_7224199.jpeg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/0_3567806.jpeg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/24_9603358.jpeg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/1_209794.jpeg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/13_8642020.jpeg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/1_7348289.jpeg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/1_7348289.jpeg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lungcure.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/tankuimage.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/lung.jpg
+/storage/users/arshad/covid-19
+/storage/users/arshad/covid-19/uploads/test/
+saving /storage/users/arshad/covid-19/uploads/test/3_6006192.jpeg.jpg
